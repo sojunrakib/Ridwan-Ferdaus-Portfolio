@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // --- Typing effect ---
     const typingElement = document.querySelector('.typing-effect');
     if (typingElement) {
-        const words = ['a Hadith Student', 'a Researcher', 'an Al Azhar Scholar'];
+        const words = ['Arabic Teacher and M.phil researcher at Al-Azhar'];
         let wordIndex = 0;
         let charIndex = 0;
         let isDeleting = false;
@@ -162,3 +162,4 @@ document.addEventListener('DOMContentLoaded', function () {
         yearElement.textContent = new Date().getFullYear();
     }
 });
+
